@@ -13,10 +13,13 @@ Use `posrare -h` to see in-tool help
 
 To use Posrare, simply pipe in your list of URLs. Use the `-p` flag to specify the position in the URL path you're interested in.
 The position in the url is as seen here:
+
 `https://example.com/position1/position2/position3/etc...`
 
 Example sorting by position 1:
+
 `cat urls.txt | posrare -p 1`
+
 
 You can control the entropy level of the words with the `-e` flag. Higher entropy means more randomness. Lower entropy means more structure. Adjust this to suit your research needs:
 
